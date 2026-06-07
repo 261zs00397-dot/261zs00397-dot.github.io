@@ -1,0 +1,6 @@
+:root { --theme-color: #00a0a0; }
+body { padding: 30px; color: #333; font-family: sans-serif; }
+h1, h2, h3 { color: var(--theme-color); border-bottom: dashed 0.1em var(--theme-color); }
+a { color: var(--theme-color); text-decoration: none; }
+ul { list-style: none; }
+li:before { content: "★ "; color: var(--theme-color); }
